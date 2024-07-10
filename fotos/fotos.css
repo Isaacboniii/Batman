@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+}
+
+nav {
+width: 60%;    
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: 19s;
+    transition: 0.5s;
+    font-family: "kdam thmor pro", sans-serif;
+}
+
+li:hover {
+    color: #d21617;
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+}
+
+#banner {
+    background-size: cover;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+article {
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    border-radius: 20px;
+}
+
+.navigation {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+
+.bar {
+    width: 60px;
+    height: 17px;
+    border: 2px solid white;
+    margin: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.bar:hover {
+    background: #fff;
+}
+
+input {
+    display: none;
+}
+
+.slides {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.slide {
+    transition: 0.6s;
+}
+
+.slide img {
+    width: 1400px;
+    height: 600px;
+    overflow: hidden;
+}
+
+#slide1:checked ~ .s1 {
+    margin-right: 0;
+} 
+
+#slide2:checked ~ .s1 {
+    margin-right: -105%;
+} 
+
+#slide3:checked ~ .s1 {
+    margin-right: -210%;
+} 
+
+#slide4:checked ~ .s1 {
+    margin-right: -315%;
+} 
+
+#slide5:checked ~ .s1 {
+    margin-right: -417%;
+} 
+
+#slide6:checked ~ .s1 {
+    margin-right: -520%;
+} 
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+}
+    
+span {
+    color: #fff;
+    font-family: "kdam thmor pro", sans-serif;
+}
+    
+.footer-navigation {
+    display: none;
+}
+    
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    
+@media(max-width: 768px){
+    .footer-navigation {
+        display: block;
+    }
+    
+    nav {
+        display: none;
+    }
+}
