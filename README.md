@@ -6,7 +6,7 @@ Este projeto é um site simples para a venda de ingressos para o filme do Batman
 
 Você pode acessar o projeto clicando no link abaixo:
 
-[Ver Projeto](projeto-batman-peach.vercel.app)
+[Ver Projeto](https://projeto-batman-peach.vercel.app/)
 
 ## Funcionalidades
 
