@@ -144,13 +144,13 @@ li:hover {
 }
 
 .banner-1 {
-    background-image: url("https://observatoriodocinema.uol.com.br/wp-content/uploads/2022/02/batman.jpg");
+    background-image: url("../assets/BANNER-1.jpeg");
 }
 .banner-2 {
-    background-image: url("https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2022/02/Zoe-CNN-Batman.png?w=390");
+    background-image: url("../assets/BANNER-2.jpeg");
 }
 .banner-3 {
-    background-image: url("https://preview.redd.it/opinions-on-jeffrey-wrights-gordon-v0-l617izc155sb1.png?auto=webp&s=d86970095d58cf4443cf974ced11c68dd31e93bf");
+    background-image: url("../assets/BANNER-3.jpeg");
 }
 
 footer {

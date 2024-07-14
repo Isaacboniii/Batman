@@ -61,7 +61,7 @@ fieldset {
 }
 
 form {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://www.proibidoler.com/wp-content/uploads/2022/02/critica-the-batman-2022-4.jpeg');
+    background-image: url("../assets/BANNER-CONTATO.jpeg");
     background-position: center;
     background-size: cover;    
     width: 100%;
