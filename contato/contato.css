@@ -46,12 +46,12 @@ li:hover {
 
 #titulo {
     font-family: "kdam thmor pro", sans-serif;
-    color: aliceblue;
+    color: #d21617;
 }
 
 #subtitulo {
     font-family: "kdam thmor pro", sans-serif;
-    color: aliceblue;
+    color: #d21617;
 }
 
 fieldset {
@@ -68,7 +68,7 @@ form {
     height: 600px;
     font-family: "kdam thmor pro", sans-serif;
     font-size: 1em;
-    color: aliceblue;
+    color: #d21617;
     justify-content: center;
     display: flex;
     flex-direction: column;
@@ -78,6 +78,11 @@ form {
 
 input, textarea, button {
     border-radius: 5px;
+    background-color: #151F30;
+}
+
+input {
+    width: 500px;
 }
 
 .campo {
@@ -86,14 +91,14 @@ input, textarea, button {
 
 .campo label {
     margin-bottom: 0.2em;
-    color: aliceblue;
+    color: #d21617;
     display: block;
 }
 
 fieldset {
     transition: all 0.8s;
     background-color: rgba(255, 255, 255, 0.1);
-    border: 1px solid white;
+    border: 1px solid #151F30;
     backdrop-filter: blur(10px);
     display: flex;
     flex-direction: column;
@@ -104,7 +109,7 @@ fieldset {
 
 .campo[type="text"], .campo[type="email"] #contate-nos {
     padding: 0.2em;
-    border: 1px solid aliceblue;
+    border: 1px solid #d21617;
     box-shadow: 2px 2px 2px rgb(0,0,0,0.2);
     display: block;
 }
@@ -147,7 +152,7 @@ fieldset {
 .fieldset-baixo {
     transition: all 0.8s;
     background-color: rgba(255, 255, 255, 0.1);
-    border: 1px solid white;
+    border: 1px solid #151F30;
     backdrop-filter: blur(10px);
     flex-direction: column;
     justify-content: center;
@@ -179,7 +184,7 @@ footer {
         align-items: center;
     }
     
-    @media(max-width: 768px){
+    @media (max-width: 768px){
         .footer-navigation {
             display: block;
         }
@@ -187,4 +192,34 @@ footer {
         nav {
             display: none;
         }
+
+        body {
+            width: 100%;
+        }
+
+        .grupo, .fieldset-baixo, .campo {
+            width: 100%; 
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        fieldset {
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+
+        input, #contate-nos {
+            width: 90%;
+            height: 30px;
+        }
+
+        form {
+            padding: 1px;
+        }
+
+        #titulo {
+            font-size: 16px;
+        }
+
     }

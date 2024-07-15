@@ -59,6 +59,7 @@ article {
 }
 
 .navigation {
+    background-color: rgba(10,23,55,0);
     position: absolute;
     bottom: 200px;
     left: 50%;
@@ -67,6 +68,7 @@ article {
 }
 
 .bar {
+    background-color: rgba(10,23,55,0);
     width: 60px;
     height: 17px;
     border: 2px solid white;
@@ -159,4 +161,46 @@ span {
     nav {
         display: none;
     }
+
+    body {
+        width: 100%;
+    }
+
+    .navigation {
+        width: 90%;
+        margin-bottom: 1px;
+    }
+
+    img {
+        overflow: hidden;
+        width: 100%;
+        max-width: 100%;
+        height: 100%;
+        max-height: 100%;
+    }
+
+    #slide1:checked ~ .s1 {
+        margin-right: 0;
+    } 
+    
+    #slide2:checked ~ .s1 {
+        margin-right: -100%;
+    } 
+    
+    #slide3:checked ~ .s1 {
+        margin-right: -200%;
+    } 
+    
+    #slide4:checked ~ .s1 {
+        margin-right: -300%;
+    } 
+    
+    #slide5:checked ~ .s1 {
+        margin-right: -400%;
+    } 
+    
+    #slide6:checked ~ .s1 {
+        margin-right: -500%;
+    } 
+    
 }
