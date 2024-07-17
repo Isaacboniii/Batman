@@ -1,6 +1,6 @@
-# Projeto de Venda de Ingressos para o Filme do Batman
+# Projeto para o Filme do Batman
 
-Este projeto é um site simples para a venda de ingressos para o filme do Batman, desenvolvido com HTML e CSS.
+Este projeto é um site simples para o filme do Batman, desenvolvido com HTML e CSS.
 
 ## Como Acessar o Projeto
 
@@ -10,8 +10,8 @@ Você pode acessar o projeto clicando no link abaixo:
 
 ## Funcionalidades
 
-- Página inicial com o pôster do filme e informações básicas.
-- Formulário para a compra de ingressos.
+- Página inicial com os atores e trailer.
+- Formulário para contato.
 - Estilo e layout responsivos usando CSS.
 
 ## Tecnologias Utilizadas
